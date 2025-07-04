@@ -48,7 +48,7 @@ ecom-recommender/
 │   └── user.test.js
 ├── .env
 ├── package.json
-└── README.md according to this generate package.json also added auth.conyroller file in controller foldernow provide postman request and url also based on this folder structure
+└── README.md according to this generate package.json also added auth.controller file in controller foldernow provide postman request and url also based on this folder structure
 
 ## 📹 Video Walkthrough of the Project
 _A short demo showcasing main functionality (1–3 mins)_  
