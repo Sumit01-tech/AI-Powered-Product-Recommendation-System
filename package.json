@@ -1,0 +1,57 @@
+{
+  "name": "ai-powered-product-recommendation-system",
+  "version": "1.0.0",
+  "description": "Backend for AI-Powered Product Recommendation System using Express, MongoDB, Redis, and rule-based logic",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --detectOpenHandles --forceExit --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sumit01-tech/AI-Powered-Product-Recommendation-System.git"
+  },
+  "keywords": [
+    "recommendation",
+    "ecommerce",
+    "express",
+    "mongodb",
+    "redis",
+    "nodejs",
+    "swagger",
+    "jwt",
+    "cron",
+    "backend"
+  ],
+  "author": "Sumit Gourav",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sumit01-tech/AI-Powered-Product-Recommendation-System/issues"
+  },
+  "homepage": "https://github.com/Sumit01-tech/AI-Powered-Product-Recommendation-System#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^4.18.2",
+    "ioredis": "^5.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "node-cron": "^4.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "detectOpenHandles": true,
+    "testTimeout": 15000
+  }
+}
